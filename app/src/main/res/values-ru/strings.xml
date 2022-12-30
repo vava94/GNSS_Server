@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GNSS Server</string>
+    <string name="permissions_message">Доступ к данным местоположения обязателен для этого приложения.</string>
+    <string name="attention_title">Внимание</string>
+    <string name="settings_operation_mode_text_view">Режим работы</string>
+    <string name="menu_status">Статус</string>
+    <string name="menu_settings">Настройки</string>
+    <string name="satellites_textView">Спутники</string>
+    <string name="sat_used_textView">Используется / Всего</string>
+    <string name="elevation_textView">ВЫС</string>
+    <string name="azimuth_textView">АЗ</string>
+    <string name="navigation_status_textView">Статус навигации</string>
+    <string name="lat_textView">Широта:</string>
+    <string name="long_textView">Долгота:</string>
+    <string name="altitude_textView">Высота:</string>
+    <string name="accuracy_textView">Точность:</string>
+    <string name="altAccuracy_textView">Тчн выс:</string>
+    <string name="bearing_textView">Пеленг:</string>
+    <string name="bearingAcc_textView">Тчн плнг:</string>
+    <string name="speed_textView">Скорость:</string>
+    <string name="speedAccuracy_textView">Тчн скрст:</string>
+</resources>

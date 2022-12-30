@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_status">
+
+    <fragment
+        android:id="@+id/nav_status"
+        android:name="com.catndev.gnssserver.ui.status.StatusFragment"
+        android:label="@string/menu_status"
+        tools:layout="@layout/fragment_status" />
+
+    <fragment
+        android:id="@+id/nav_records"
+        android:name="com.catndev.gnssserver.ui.records.RecordsFragment"
+        android:label="@string/menu_records"
+        tools:layout="@layout/fragment_records" />
+
+    <fragment
+        android:id="@+id/nav_settings"
+        android:name="com.catndev.gnssserver.ui.settings.SettingsFragment"
+        android:label="@string/menu_settings"
+        tools:layout="@layout/fragment_settings" />
+
+    <fragment
+        android:id="@+id/nav_about"
+        android:name="com.catndev.gnssserver.ui.about.AboutFragment"
+        android:label="@string/menu_about"
+        tools:layout="@layout/fragment_about" />
+</navigation>
